@@ -12,7 +12,10 @@ import { blockRouterMetaDataJsFunctionBasics } from './JsFunctionBasics/router-d
 import { blockRouterMetaDataHoisting } from './Hoisting/router-data';
 import { blockRouterMetaData as MemoGame } from './MemoGame/router-data';
 import { blockRouterMetaData as OOP } from './OOP/router-data';
-
+import { blockRouterMetaData as blockRouterMetaPromisesAndMe } from './PromisesAndMe/router-data';
+import { blockRouterMetaData as blockRouterMetaUseEffectAndPromiseExercise } from './UseEffectAndPromiseExercise/router-data';
+import { blockRouterMetaData as blockRouterMetaPromisesMethods } from './PromisesMethods/router-data';
+import { blockRouterMetaData as blockRouterMetaPromiseMethodsTraining } from './PromiseMethodsTraining/router-data';
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
   blockRouterMetaDataJsVariables2,
@@ -26,5 +29,9 @@ export const blockRouterMetaData = [
   blockRouterMetaDataHoisting,
   MemoGame,
   OOP,
+  blockRouterMetaPromisesAndMe,
+  blockRouterMetaUseEffectAndPromiseExercise,
+  blockRouterMetaPromisesMethods,
+  blockRouterMetaPromiseMethodsTraining,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
